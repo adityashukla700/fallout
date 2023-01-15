@@ -1,0 +1,8 @@
+const request=require("request")
+
+const accountSid = 'AC31ebf4ac43c3234c9734d3a69fd742b9';
+const authToken = 'a7b6ccc4570d5c5b54e768126a8b87f7';
+const client = require("twilio")(accountSid, authToken);
+
+client.messages.create({body:"Alert!Your Child is outside the allowed premises.The Location cocordinates are: 26.8361880, 75.6504641",
+from:'+14793411810',to:'+918816937805'}).then(message => console.log(message));

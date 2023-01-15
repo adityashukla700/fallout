@@ -1,0 +1,25 @@
+{
+  "name": "falldetector",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@googlemaps/google-maps-services-js": "^3.3.16",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fetch": "^1.1.0",
+    "firebase": "^9.13.0",
+    "node-fetch": "^3.3.0",
+    "node-geocoder": "^4.2.0",
+    "nodemon": "^2.0.20",
+    "request": "^2.88.2",
+    "twilio": "^3.83.1"
+  },
+  "devDependencies": {
+    "@types/google-maps": "^3.2.3"
+  }
+}
